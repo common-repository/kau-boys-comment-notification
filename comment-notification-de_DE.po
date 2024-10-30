@@ -1,0 +1,186 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kau-boys-comment-notification\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-23 22:30-0500\n"
+"PO-Revision-Date: 2009-12-23 22:30-0500\n"
+"Last-Translator: \n"
+"Language-Team: Bernhard Kau <max@mustermann.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: German\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: C:\\xampp\\htdocs\\wordpress\\wp-content\\plugins\\kau-boys-comment-notification\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comment-notification.php:21
+msgid "Comment Notification"
+msgstr "Kommentar Benachrichtigung"
+
+#: comment-notification.php:29
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: comment-notification.php:55
+msgid "Options saved."
+msgstr "Einstellungen gespeichert."
+
+#: comment-notification.php:58
+msgid "Here you can customize the plugin for your needs."
+msgstr "Hier können Sie das Plugin an Ihre eigenen Bedürfnisse anpassen."
+
+#: comment-notification.php:63
+msgid "Allow only moderators to subscribe to the feed"
+msgstr "Nur Moderatoren das Abnonnieren des Feeds erlauben"
+
+#: comment-notification.php:66
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#: comment-notification.php:75
+msgid "Comment Notification RSS Feed"
+msgstr "RSS Feed für Kommentar Benachrichtigungen"
+
+#: comment-notification.php:85
+msgid "Customize Comment Notification RSS feed"
+msgstr "RSS Feed für Kommentar Benachrichtigungen anpassen"
+
+#: comment-notification.php:91
+msgid "Limit Feed entries"
+msgstr "Anzahl der Einträge begrenzen"
+
+#: comment-notification.php:93
+msgid "Max. number of feed entries"
+msgstr "Max. Anzahl an Einträge"
+
+#: comment-notification.php:97
+msgid "Feed content"
+msgstr "Feed Inhalt"
+
+#: comment-notification.php:100
+msgid "Hide avatars"
+msgstr "Avatare verbergen"
+
+#: comment-notification.php:103
+msgid "Hide user data"
+msgstr "Benutzerdaten verbergen"
+
+#: comment-notification.php:106
+msgid "Hide icons"
+msgstr "Icons verbergen"
+
+#: comment-notification.php:109
+msgid "Comment types in Feed"
+msgstr "Kommentar-Arten im Feed"
+
+#: comment-notification.php:112
+msgid "Hide approved comments"
+msgstr "Zugelassene Kommentare verbergen"
+
+#: comment-notification.php:115
+msgid "Hide moderation comments"
+msgstr "Moderierte Kommentare verbergen"
+
+#: comment-notification.php:118
+msgid "Hide spam comments"
+msgstr "Spam Kommentare verbergen"
+
+#: comment-notification.php:121
+msgid "Hide trash comments"
+msgstr "Papierkorb Kommentare verbergen"
+
+#: comment-notification.php:123
+msgid "Showing spam comments is useful, if you activated Akismet and you want to verify that no regular comment has been marked as spam. Hiding all comments but moderated is useful for a feed only for moderation."
+msgstr "Das Anzeige von Spam Kommentaren ist sinnvoll wenn Akismet aktiviert ist, um sicherzustellen, dass kein reguläres Kommentar als Spam markiert wurde. Das verbergen aller Kommentare bis auf moderierte ist sinnvoll, um einen Moderations-Feed zu erzeugen."
+
+#: comment-notification.php:127
+msgid "Open custom feed"
+msgstr "Angepassten Feed öffnen"
+
+#: feed-rss2-comments.php:22
+#, php-format
+msgid "Comments on: %s"
+msgstr "Kommentare zu: %s"
+
+#: feed-rss2-comments.php:24
+#, php-format
+msgid "Comments for %s searching on %s"
+msgstr "Kommentare in %s in Suchergebnissen zu %s"
+
+#: feed-rss2-comments.php:26
+#, php-format
+msgid "Comments for %s"
+msgstr "Kommentare zu %s"
+
+#: feed-rss2-comments.php:45
+msgid "*SPAM* "
+msgstr "*SPAM* "
+
+#: feed-rss2-comments.php:48
+msgid "~TRASH~ "
+msgstr "~PAPIERKORB~ "
+
+#: feed-rss2-comments.php:51
+msgid "!MODERATE! "
+msgstr "!MODERIEREN! "
+
+#: feed-rss2-comments.php:54
+msgid "+PINGBACK+ "
+msgstr "+PINGBACK+ "
+
+#: feed-rss2-comments.php:57
+msgid "#TRACKBACK# "
+msgstr "#TRACKBACK# "
+
+#: feed-rss2-comments.php:62
+#, php-format
+msgid "Comment on %1$s by %2$s"
+msgstr "Kommentare von %2$s zu %1$s"
+
+#: feed-rss2-comments.php:64
+#, php-format
+msgid "By: %s"
+msgstr "Von: %s"
+
+#: feed-rss2-comments.php:85
+msgid "Name"
+msgstr "Name"
+
+#: feed-rss2-comments.php:91
+msgid "E-Mail"
+msgstr "E-Mail"
+
+#: feed-rss2-comments.php:97
+msgid "Website"
+msgstr "Website"
+
+#: feed-rss2-comments.php:108
+msgid "Approve it"
+msgstr "Genehmige es"
+
+#: feed-rss2-comments.php:114
+msgid "Delete it"
+msgstr "Lösche es"
+
+#: feed-rss2-comments.php:120
+msgid "Spam it"
+msgstr "Markiere es als Spam"
+
+#: feed-rss2-comments.php:125
+msgid "Read it"
+msgstr "Lese es"
+
+#: feed-rss2-comments.php:130
+msgid "Reply to"
+msgstr "Antworte darauf"
+
+#: feed.php:32
+msgid "You cannot read this feed as you are not permitted to moderate posts!"
+msgstr "Du kannst diesen Feed nicht lesen, da du keine Berechtigung zum moderieren von Artikeln hast!"
+
